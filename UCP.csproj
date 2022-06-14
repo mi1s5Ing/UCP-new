@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BDB8DAE0-1486-4BDB-8582-FEDD9249785A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UCP</RootNamespace>
+    <AssemblyName>UCP</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ucpico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="classCrypto.cs" />
+    <Compile Include="formCalculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCalculator.Designer.cs">
+      <DependentUpon>formCalculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formChart.Designer.cs">
+      <DependentUpon>formChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formCrypto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCrypto.Designer.cs">
+      <DependentUpon>formCrypto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formFormulaEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formFormulaEnd.Designer.cs">
+      <DependentUpon>formFormulaEnd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuFormulaAlgebra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuFormulaAlgebra.Designer.cs">
+      <DependentUpon>menuFormulaAlgebra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuFormulaGeometry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuFormulaGeometry.Designer.cs">
+      <DependentUpon>menuFormulaGeometry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuFormulaPhysics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuFormulaPhysics.Designer.cs">
+      <DependentUpon>menuFormulaPhysics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuFormulas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuFormulas.Designer.cs">
+      <DependentUpon>menuFormulas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formCopyright.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formCopyright.Designer.cs">
+      <DependentUpon>formCopyright.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menuSections.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menuSections.Designer.cs">
+      <DependentUpon>menuSections.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formConverter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formConverter.Designer.cs">
+      <DependentUpon>formConverter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formulasDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>formulasDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="classTypesPlacer.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="usersdbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>usersdbDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="formCalculator.resx">
+      <DependentUpon>formCalculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formChart.resx">
+      <DependentUpon>formChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCrypto.resx">
+      <DependentUpon>formCrypto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formFormulaEnd.resx">
+      <DependentUpon>formFormulaEnd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuFormulaAlgebra.resx">
+      <DependentUpon>menuFormulaAlgebra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuFormulaGeometry.resx">
+      <DependentUpon>menuFormulaGeometry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuFormulaPhysics.resx">
+      <DependentUpon>menuFormulaPhysics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuFormulas.resx">
+      <DependentUpon>menuFormulas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formCopyright.resx">
+      <DependentUpon>formCopyright.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menuSections.resx">
+      <DependentUpon>menuSections.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formConverter.resx">
+      <DependentUpon>formConverter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ClassDiagram2.cd" />
+    <None Include="formulasDataSet.xsc">
+      <DependentUpon>formulasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="formulasDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>formulasDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="formulasDataSet.xss">
+      <DependentUpon>formulasDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="usersdbDataSet.xsc">
+      <DependentUpon>usersdbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="usersdbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>usersdbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="usersdbDataSet.xss">
+      <DependentUpon>usersdbDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ucpico.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

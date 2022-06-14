@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UCP.classCrypto">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAIABAAAAAAQAAAAgAAAAAAAAAAAAAwAAAAAAAEA=</HashCode>
+      <FileName>classCrypto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.classTypesPlacer">
+    <Position X="5.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAgABAAAAAAAAAAABABAAAAAAIAAAgAAAA=</HashCode>
+      <FileName>classTypesPlacer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="System.Windows.Forms.Form" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="UCP.formCalculator" Collapsed="true">
+    <Position X="7.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACgRgAAACAQqZAABACBYMACgYNA4IEgUwBg8AAIYAE=</HashCode>
+      <FileName>formCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.formChart" Collapsed="true">
+    <Position X="7.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAASAAABEEAACAAAACAAAYAAAAAGAQIARAAAA=</HashCode>
+      <FileName>formChart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.converterForm" Collapsed="true">
+    <Position X="7.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gGACAAAAACAgARAQAACAAAACAIAZAAAAMGAAAQAEAAA=</HashCode>
+      <FileName>formConverter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.copyrightForm" Collapsed="true">
+    <Position X="7.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAgABAAAACAAAACAAAIAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>formCopyright.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.formCrypto" Collapsed="true">
+    <Position X="7.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAACAAABAQAACgAAACAAB4AAAAEHAAAAAAAAA=</HashCode>
+      <FileName>formCrypto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.formFormulaEnd" Collapsed="true">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACBAEBAAAACAAAACAAAAAAhAIAAAAAAAAAA=</HashCode>
+      <FileName>formFormulaEnd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.menuFormulaAlgebra" Collapsed="true">
+    <Position X="11" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAABAABACAAAAAAAICAAAACBIAIAAAAAUgAAAAAAAA=</HashCode>
+      <FileName>menuFormulaAlgebra.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.menuFormulaGeometry" Collapsed="true">
+    <Position X="11" Y="6" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAABACAAAAAAAICAAAACAIAIAACAAUgAAAEAAAA=</HashCode>
+      <FileName>menuFormulaGeometry.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.menuFormulaPhysics" Collapsed="true">
+    <Position X="11" Y="7" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAABACAAAAAAAICAAAACAIAIEAAAAUgAAAAAAAA=</HashCode>
+      <FileName>menuFormulaPhysics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.formulasMenu" Collapsed="true">
+    <Position X="11" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAQACAAAAAAAACQAAACAMAwAAAAAHAIAAAAgAA=</HashCode>
+      <FileName>menuFormulas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.sectionsMenu" Collapsed="true">
+    <Position X="9.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAgCAAABAAAACQAAACAMA4AEAAAHAMAAAAAAA=</HashCode>
+      <FileName>menuSections.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.Program" Collapsed="true">
+    <Position X="3.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.Properties.Resources" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UCP.Properties.Settings" Collapsed="true">
+    <Position X="5.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAKAAAAAABAAAAAAAAAAAIAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
